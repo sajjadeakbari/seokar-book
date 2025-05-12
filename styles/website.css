@@ -1,0 +1,418 @@
+/**
+ * Expert-Level Custom CSS for Persian (RTL) GitBook (website.css)
+ *
+ * Font: Vazirmatn (via Google Fonts)
+ * Direction: Right-to-Left (RTL)
+ * Author: AI Assistant based on user request
+ * Version: 1.1
+ *
+ * Instructions:
+ * 1. Save this code as `website.css` inside a `styles` folder in your GitBook project root.
+ * 2. Ensure your `book.json` file includes:
+ *    {
+ *      "styles": {
+ *        "website": "styles/website.css"
+ *      }
+ *    }
+ * 3. Rebuild your GitBook (`gitbook build` or `gitbook serve`).
+ */
+
+/* ---=== Imports & Variables ===--- */
+
+/* Import Vazirmatn Font from Google Fonts (Regular 400, Medium 500, Bold 700) */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap');
+
+:root {
+  /* Font Stacks */
+  --font-family-persian: 'Vazirmatn', tahoma, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-family-code: 'Consolas', 'Menlo', 'Courier New', Courier, monospace; /* Standard Monospace for code */
+
+  /* Base Sizes */
+  --base-font-size: 16px; /* Base font size for paragraphs */
+  --base-line-height: 1.7;  /* Generous line height for readability in Persian */
+  --base-spacing-unit: 8px; /* Base unit for margins/paddings */
+
+  /* Colors (Customize as needed) */
+  --color-text: #333;
+  --color-heading: #111;
+  --color-link: #007bff; /* Bootstrap blue */
+  --color-link-hover: #0056b3;
+  --color-background: #ffffff;
+  --color-sidebar-background: #f5f5f5;
+  --color-sidebar-link: #444;
+  --color-sidebar-link-active: var(--color-link);
+  --color-code-background: #f8f8f8;
+  --color-code-text: #333;
+  --color-border: #eaeaea;
+  --color-blockquote-border: #ccc;
+  --color-blockquote-text: #666;
+}
+
+/* ---=== Global Resets & Defaults ===--- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Consistent box model */
+}
+
+html {
+  font-size: var(--base-font-size); /* Set base font size on HTML for easier rem units */
+  -webkit-font-smoothing: antialiased; /* Smoother fonts on WebKit */
+  -moz-osx-font-smoothing: grayscale; /* Smoother fonts on Firefox */
+}
+
+body,
+.book { /* Apply to body and main GitBook wrapper */
+  font-family: var(--font-family-persian);
+  font-size: 1rem; /* Equivalent to --base-font-size */
+  line-height: var(--base-line-height);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  direction: rtl; /* Set global direction to Right-to-Left */
+  text-align: right; /* Default text alignment to right */
+  overflow-x: hidden; /* Prevent horizontal scroll on body */
+}
+
+/* ---=== Typography ===--- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-persian);
+  font-weight: 700; /* Bold for headings */
+  color: var(--color-heading);
+  margin-top: calc(var(--base-spacing-unit) * 3); /* 24px */
+  margin-bottom: calc(var(--base-spacing-unit) * 2); /* 16px */
+  line-height: 1.4;
+  text-align: right; /* Explicitly align headings right */
+}
+
+h1 { font-size: 2.25rem; } /* 36px */
+h2 { font-size: 1.875rem; } /* 30px */
+h3 { font-size: 1.5rem; }   /* 24px */
+h4 { font-size: 1.25rem; }  /* 20px */
+h5 { font-size: 1.125rem; } /* 18px */
+h6 { font-size: 1rem; }     /* 16px */
+
+p {
+  margin-top: 0;
+  margin-bottom: calc(var(--base-spacing-unit) * 1.5); /* 12px */
+  text-align: right; /* Ensure paragraphs align right */
+  /* Consider hyphens for better justification if needed, but often not ideal for Persian */
+  /* hyphens: auto; */ /* Experimental - may need language attribute on HTML */
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none; /* Remove underline by default */
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-link-hover);
+  text-decoration: underline; /* Add underline on hover/focus */
+}
+
+strong, b {
+  font-weight: 700; /* Ensure bold uses the bold weight */
+}
+
+em, i {
+  /* Standard italic style */
+}
+
+/* ---=== Lists (Unordered & Ordered) ===--- */
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: calc(var(--base-spacing-unit) * 1.5); /* 12px */
+  padding-right: calc(var(--base-spacing-unit) * 3); /* Indent from the right (24px) */
+  padding-left: 0; /* Remove default left padding */
+  margin-right: 0; /* Reset potential right margin if needed */
+  margin-left: 0;
+  text-align: right;
+}
+
+li {
+  margin-bottom: calc(var(--base-spacing-unit) * 0.75); /* 6px spacing between items */
+  text-align: right;
+}
+
+/* Adjust nested list indentation */
+ul ul, ol ol, ul ol, ol ul {
+  margin-bottom: 0;
+  margin-top: calc(var(--base-spacing-unit) * 0.75); /* 6px spacing before nested list */
+  padding-right: calc(var(--base-spacing-unit) * 2.5); /* Further indent nested lists */
+}
+
+/* ---=== Code Blocks & Inline Code ===--- */
+
+/* Inline Code */
+code {
+  font-family: var(--font-family-code);
+  font-size: 0.875em; /* Slightly smaller than base text */
+  color: var(--color-code-text);
+  background-color: var(--color-code-background);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  direction: ltr; /* Keep inline code snippets LTR */
+  text-align: left;
+  /* Prevent line breaks within short inline code */
+  white-space: nowrap;
+}
+
+/* Code Blocks */
+pre {
+  font-family: var(--font-family-code);
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.5;
+  color: var(--color-code-text);
+  background-color: var(--color-code-background);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: calc(var(--base-spacing-unit) * 1.5); /* 12px */
+  margin-top: 0;
+  margin-bottom: calc(var(--base-spacing-unit) * 2); /* 16px */
+  overflow-x: auto; /* Enable horizontal scrolling for long lines */
+  direction: ltr; /* CRITICAL: Code blocks must be LTR */
+  text-align: left; /* CRITICAL: Align code text left */
+  white-space: pre; /* Preserve whitespace and line breaks */
+}
+
+/* Code inside Pre (redundant but safe) */
+pre code {
+  font-family: inherit; /* Inherit from pre */
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent; /* No background needed inside pre */
+  padding: 0;
+  border-radius: 0;
+  direction: ltr;
+  text-align: left;
+  white-space: inherit; /* Inherit whitespace handling */
+}
+
+/* ---=== Blockquotes ===--- */
+
+blockquote {
+  margin-top: 0;
+  margin-bottom: calc(var(--base-spacing-unit) * 2); /* 16px */
+  padding: calc(var(--base-spacing-unit) * 1.5) calc(var(--base-spacing-unit) * 2); /* 12px 16px */
+  padding-left: 0; /* Remove left padding */
+  margin-right: 0; /* Remove default browser margins */
+  margin-left: 0;
+  border-right: 5px solid var(--color-blockquote-border); /* Border on the right for RTL */
+  border-left: none; /* Remove default left border */
+  color: var(--color-blockquote-text);
+  background-color: #fdfdfd; /* Slight background tint */
+  text-align: right; /* Ensure text aligns right */
+}
+
+blockquote p:last-child {
+  margin-bottom: 0; /* Remove margin from the last paragraph inside quote */
+}
+
+/* ---=== Tables ===--- */
+
+table {
+  width: 100%;
+  margin-bottom: calc(var(--base-spacing-unit) * 2); /* 16px */
+  border-collapse: collapse; /* Clean borders */
+  border-spacing: 0;
+  border: 1px solid var(--color-border);
+  direction: rtl; /* Ensure table layout flows RTL */
+  text-align: right;
+}
+
+th, td {
+  padding: calc(var(--base-spacing-unit) * 1) calc(var(--base-spacing-unit) * 1.5); /* 8px 12px */
+  border: 1px solid var(--color-border);
+  text-align: right; /* Align cell content right */
+  vertical-align: top; /* Align content to the top */
+}
+
+th {
+  font-weight: 700; /* Bold headers */
+  background-color: #f9f9f9; /* Slight background for header */
+}
+
+/* Zebra striping for better readability (optional) */
+tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* ---=== Images ===--- */
+
+img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Allows margin auto to work for centering */
+  margin: calc(var(--base-spacing-unit) * 2) auto; /* Center images by default */
+  /* Or align right: */
+  /* margin: calc(var(--base-spacing-unit) * 2) 0; */
+  /* float: right; margin-left: 15px; */ /* Careful with floats */
+}
+
+/* ---=== Horizontal Rules ===--- */
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: var(--color-border);
+  margin: calc(var(--base-spacing-unit) * 4) 0; /* 32px top/bottom margin */
+}
+
+/* ---=== GitBook Specific Elements ===--- */
+
+/* Main Content Area */
+.page-inner,
+.markdown-section {
+  max-width: 800px; /* Adjust content width as desired */
+  margin: 0 auto; /* Center content area */
+  padding: calc(var(--base-spacing-unit) * 2) calc(var(--base-spacing-unit) * 3); /* 16px 24px padding */
+}
+
+/* Sidebar (Table of Contents) */
+.book-summary {
+  font-family: var(--font-family-persian);
+  background-color: var(--color-sidebar-background);
+  border-left: 1px solid var(--color-border); /* Border on the left side */
+  border-right: none;
+  direction: rtl; /* Ensure sidebar itself is RTL */
+}
+
+.book-summary ul {
+  padding-right: calc(var(--base-spacing-unit) * 1.5); /* Indent main list from right (12px) */
+  padding-left: 0;
+  margin: 0;
+  list-style: none; /* Remove default bullets */
+  text-align: right; /* Align text right */
+}
+
+.book-summary ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.book-summary ul li a,
+.book-summary ul li span { /* Span for non-linked chapter titles */
+  display: block;
+  padding: calc(var(--base-spacing-unit) * 0.75) calc(var(--base-spacing-unit) * 1.5); /* 6px 12px padding */
+  color: var(--color-sidebar-link);
+  text-decoration: none;
+  border-radius: 3px;
+  margin-bottom: 2px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-summary ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--color-heading);
+}
+
+.book-summary ul li.active > a,
+.book-summary ul li.active > span { /* Style for active/current page link */
+  color: var(--color-sidebar-link-active);
+  font-weight: 500; /* Medium weight for active link */
+  background-color: rgba(0, 123, 255, 0.1); /* Subtle background for active */
+}
+
+/* Nested lists in sidebar */
+.book-summary ul ul {
+  padding-right: calc(var(--base-spacing-unit) * 2); /* Increase indent for nested items (16px) */
+  padding-left: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+/* Adjust GitBook Header/Toolbar if needed (Inspect elements for specific classes) */
+.book-header {
+  direction: rtl;
+  text-align: right;
+}
+.book-header h1 {
+  /* Adjust header title style if needed */
+  text-align: right;
+}
+.pull-left { float: right !important; } /* Override GitBook's helper class */
+.pull-right { float: left !important; } /* Override GitBook's helper class */
+
+/* Search input might need specific styling */
+#book-search-input input {
+  text-align: right; /* Align placeholder and input text right */
+  direction: rtl;
+}
+
+/* ---=== Responsive Adjustments (Example) ===--- */
+
+@media (max-width: 768px) {
+  :root {
+    --base-font-size: 15px; /* Slightly smaller base font on smaller screens */
+  }
+
+  .page-inner,
+  .markdown-section {
+    padding: calc(var(--base-spacing-unit) * 1.5) calc(var(--base-spacing-unit) * 2); /* Adjust padding */
+  }
+
+  h1 { font-size: 2rem; } /* Adjust heading sizes */
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.375rem; }
+}
+
+/* ---=== Print Styles (Optional but Recommended) ===--- */
+
+@media print {
+  body, .book {
+    background-color: #fff;
+    color: #000;
+    font-size: 12pt; /* Use points for print */
+  }
+
+  .book-summary, /* Hide sidebar */
+  .book-header, /* Hide header */
+  .book-footer /* Hide footer if exists */ {
+    display: none !important;
+  }
+
+  .page-inner,
+  .markdown-section {
+    max-width: 100%; /* Use full width */
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+  }
+
+  a {
+    color: inherit !important; /* Black links */
+    text-decoration: none;
+  }
+
+  /* Show URL after links (optional) */
+  /* a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #555;
+  } */
+
+  pre, blockquote {
+    border: 1px solid #ccc;
+    page-break-inside: avoid; /* Try to keep blocks on one page */
+  }
+
+  code { background-color: #eee; }
+  pre { background-color: #eee; }
+
+  table, th, td {
+    border-color: #ccc !important;
+  }
+
+  img {
+      max-width: 100% !important; /* Ensure images fit */
+      page-break-inside: avoid;
+  }
+}
