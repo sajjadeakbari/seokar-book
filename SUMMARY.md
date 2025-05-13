@@ -3,7 +3,7 @@
 * [سئوکار دیوانه](README.md)
 * [پیش‌گفتار نویسنده](pysh-gftar-nwysndh/README.md)
   * [هدف واقعی سئو (تسلط بر اکوسیستم جستجو)](pysh-gftar-nwysndh/hdf-waqay-sew-tslt-br-akwsystm-jstjw.md)
-  * [سئو چیست و چرا حیاتی است؟](pysh-gftar-nwysndh/sew-chyst-w-chra-hyaty-ast.md)
+  * [فلسفه سئوکار دیوانه چیست؟](pysh-gftar-nwysndh/flsfh-sewkar-dywanh-chyst.md)
   * [ساختار کتاب: سفری گام به گام](pysh-gftar-nwysndh/sakhtar-ktab-sfry-gam-bh-gam.md)
   * [چند نکته برای شروع](pysh-gftar-nwysndh/chnd-nkth-bray-shrwa.md)
 * [فصل ۱: مبانی سئو](fsl-1-mbany-sew/README.md)
