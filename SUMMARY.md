@@ -1,6 +1,6 @@
 # Table of contents
 
-* [معرفی کلی](README.md)
+* [سئوکار دیوانه](README.md)
 * [پیش‌گفتار نویسنده](pysh-gftar-nwysndh/README.md)
   * [خوش‌آمدگویی به دنیای سئو](pysh-gftar-nwysndh/khwsh-aamdgwyy-bh-dnyay-sew.md)
   * [سئو چیست و چرا حیاتی است؟](pysh-gftar-nwysndh/sew-chyst-w-chra-hyaty-ast.md)
