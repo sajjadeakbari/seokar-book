@@ -1,61 +1,59 @@
-# خلاصه مطالب
+# Table of contents
 
-*   [معرفی کلی](README.md) <!-- Link to the root README -->
-*   [فصل ۰: پیش‌گفتار و راهنمای مطالعه](chapter0/README.md)
-    *   [خوش‌آمدگویی به دنیای سئو](chapter0/0-1-welcome.md)
-    *   [سئو چیست و چرا حیاتی است؟](chapter0/0-2-what-is-seo.md)
-    *   [ساختار کتاب: سفری گام به گام](chapter0/0-3-structure.md)
-    *   [چند نکته برای شروع](chapter0/0-4-getting-started.md)
-*   [فصل ۱: مبانی سئو](chapter1/README.md) <!-- Placeholder -->
-    *   [۱-۱: موتورهای جستجو چگونه کار می‌کنند؟](chapter1/1-1-search-engines.md) <!-- Example subsection -->
-    *   [۱-۲: انواع سئو (کلاه سفید، سیاه، خاکستری)](chapter1/1-2-seo-types.md) <!-- Example subsection -->
-    *   [۱-۳: مفاهیم کلیدی (کلمه کلیدی، SERP، رتبه‌بندی)](chapter1/1-3-key-concepts.md) <!-- Example subsection -->
-    *   [...]
-*   [فصل ۲: سئوی داخلی (On-Page SEO)](chapter2/README.md) <!-- Placeholder -->
-    *   [۲-۱: تحقیق کلمات کلیدی](chapter2/2-1-keyword-research.md) <!-- Example subsection -->
-    *   [۲-۲: بهینه‌سازی محتوا](chapter2/2-2-content-optimization.md) <!-- Example subsection -->
-    *   [۲-۳: بهینه‌سازی تگ عنوان و متا توضیحات](chapter2/2-3-title-meta.md) <!-- Example subsection -->
-    *   [۲-۴: بهینه‌سازی هدینگ‌ها (H1-H6)](chapter2/2-4-headings.md) <!-- Example subsection -->
-    *   [۲-۵: بهینه‌سازی تصاویر (Alt Text)](chapter2/2-5-image-optimization.md) <!-- Example subsection -->
-    *   [۲-۶: لینک‌سازی داخلی](chapter2/2-6-internal-linking.md) <!-- Example subsection -->
-    *   [...]
-*   [فصل ۳: سئوی تکنیکال (فنی)](chapter3/README.md) <!-- Placeholder -->
-    *   [۳-۱: سرعت سایت و اهمیت آن](chapter3/3-1-site-speed.md) <!-- Example subsection -->
-    *   [۳-۲: نقشه سایت (Sitemap)](chapter3/3-2-sitemap.md) <!-- Example subsection -->
-    *   [۳-۳: فایل Robots.txt](chapter3/3-3-robots-txt.md) <!-- Example subsection -->
-    *   [۳-۴: ساختار URL بهینه](chapter3/3-4-url-structure.md) <!-- Example subsection -->
-    *   [۳-۵: محتوای تکراری (Duplicate Content)](chapter3/3-5-duplicate-content.md) <!-- Example subsection -->
-    *   [۳-۶: وضعیت‌های HTTP و ریدایرکت‌ها](chapter3/3-6-http-redirects.md) <!-- Example subsection -->
-    *   [۳-۷: داده‌های ساختاریافته (Schema Markup)](chapter3/3-7-structured-data.md) <!-- Example subsection -->
-    *   [۳-۸: امنیت سایت (HTTPS)](chapter3/3-8-https.md) <!-- Example subsection -->
-    *   [...]
-*   [فصل ۴: سئوی خارجی (Off-Page SEO)](chapter4/README.md) <!-- Placeholder -->
-    *   [۴-۱: لینک‌سازی خارجی (Backlinks) چیست؟](chapter4/4-1-backlinks-intro.md) <!-- Example subsection -->
-    *   [۴-۲: انواع بک‌لینک و ارزش آن‌ها](chapter4/4-2-backlink-types.md) <!-- Example subsection -->
-    *   [۴-۳: استراتژی‌های ساخت لینک](chapter4/4-3-link-building-strategies.md) <!-- Example subsection -->
-    *   [۴-۴: سئوی محلی (Local SEO)](chapter4/4-4-local-seo.md) <!-- Example subsection -->
-    *   [...]
-*   [فصل ۵: ابزارهای سئو](chapter5/README.md) <!-- Placeholder -->
-    *   [۵-۱: گوگل آنالیتیکس (Google Analytics)](chapter5/5-1-google-analytics.md) <!-- Example subsection -->
-    *   [۵-۲: گوگل سرچ کنسول (Google Search Console)](chapter5/5-2-google-search-console.md) <!-- Example subsection -->
-    *   [۵-۳: ابزارهای تحقیق کلمه کلیدی](chapter5/5-3-keyword-tools.md) <!-- Example subsection -->
-    *   [۵-۴: ابزارهای تحلیل بک‌لینک](chapter5/5-4-backlink-tools.md) <!-- Example subsection -->
-    *   [۵-۵: ابزارهای بررسی سئوی تکنیکال](chapter5/5-5-technical-seo-tools.md) <!-- Example subsection -->
-    *   [...]
-*   [فصل ۶: مباحث پیشرفته و استراتژی](chapter6/README.md) <!-- Placeholder -->
-    *   [۶-۱: سئوی معنایی (Semantic SEO)](chapter6/6-1-semantic-seo.md) <!-- Example subsection -->
-    *   [۶-۲: اینتنت کاربر (User Intent)](chapter6/6-2-user-intent.md) <!-- Example subsection -->
-    *   [۶-۳: E-A-T/E-E-A-T چیست؟](chapter6/6-3-eeat.md) <!-- Example subsection -->
-    *   [۶-۴: تدوین استراتژی سئو](chapter6/6-4-seo-strategy.md) <!-- Example subsection -->
-    *   [...]
-*   [فصل ۷: اشتباهات رایج در سئو](chapter7/README.md) <!-- Placeholder -->
-    *   [۷-۱: تمرکز بیش از حد روی کلمات کلیدی](chapter7/7-1-keyword-stuffing.md) <!-- Example subsection -->
-    *   [۷-۲: نادیده گرفتن سئوی تکنیکال](chapter7/7-2-ignoring-technical.md) <!-- Example subsection -->
-    *   [۷-۳: خرید بک‌لینک‌های بی‌کیفیت](chapter7/7-3-bad-backlinks.md) <!-- Example subsection -->
-    *   [...]
-*   [نتیجه‌گیری و گام‌های بعدی](conclusion.md)
-*   [واژه‌نامه سئو](glossary.md)
-
----
-*   [درباره نویسنده](about-author.md) <!-- Optional -->
-*   [منابع بیشتر](resources.md) <!-- Optional -->
+* [معرفی کلی](README.md)
+* [پیش‌گفتار نویسنده](pysh-gftar-nwysndh/README.md)
+  * [خوش‌آمدگویی به دنیای سئو](pysh-gftar-nwysndh/khwsh-aamdgwyy-bh-dnyay-sew.md)
+  * [سئو چیست و چرا حیاتی است؟](pysh-gftar-nwysndh/sew-chyst-w-chra-hyaty-ast.md)
+  * [ساختار کتاب: سفری گام به گام](pysh-gftar-nwysndh/sakhtar-ktab-sfry-gam-bh-gam.md)
+  * [چند نکته برای شروع](pysh-gftar-nwysndh/chnd-nkth-bray-shrwa.md)
+* [فصل ۱: مبانی سئو](fsl-1-mbany-sew/README.md)
+  * [۱-۱: موتورهای جستجو چگونه کار می‌کنند؟](fsl-1-mbany-sew/1-1-mwtwrhay-jstjw-chgwnh-kar-my-knnd.md)
+  * [۱-۲: انواع سئو (کلاه سفید، سیاه، خاکستری)](fsl-1-mbany-sew/1-2-anwaa-sew-klah-sfyd-syah-khakstry.md)
+  * [۱-۳: مفاهیم کلیدی (کلمه کلیدی، SERP، رتبه‌بندی)](fsl-1-mbany-sew/1-3-mfahym-klydy-klmh-klydy-serp-rtbh-bndy.md)
+  * [\[...\]](fsl-1-mbany-sew/....md)
+* [فصل ۲: سئوی داخلی (On-Page SEO)](fsl-2-sewy-dakhly-on-page-seo/README.md)
+  * [۲-۱: تحقیق کلمات کلیدی](fsl-2-sewy-dakhly-on-page-seo/2-1-thqyq-klmat-klydy.md)
+  * [۲-۲: بهینه‌سازی محتوا](fsl-2-sewy-dakhly-on-page-seo/2-2-bhynh-sazy-mhtwa.md)
+  * [۲-۳: بهینه‌سازی تگ عنوان و متا توضیحات](fsl-2-sewy-dakhly-on-page-seo/2-3-bhynh-sazy-tg-anwan-w-mta-twdhyhat.md)
+  * [۲-۴: بهینه‌سازی هدینگ‌ها (H1-H6)](fsl-2-sewy-dakhly-on-page-seo/2-4-bhynh-sazy-hdyng-ha-h1-h6.md)
+  * [۲-۵: بهینه‌سازی تصاویر (Alt Text)](fsl-2-sewy-dakhly-on-page-seo/2-5-bhynh-sazy-tsawyr-alt-text.md)
+  * [۲-۶: لینک‌سازی داخلی](fsl-2-sewy-dakhly-on-page-seo/2-6-lynk-sazy-dakhly.md)
+  * [\[...\]](fsl-2-sewy-dakhly-on-page-seo/....md)
+* [فصل ۳: سئوی تکنیکال (فنی)](fsl-3-sewy-tknykal-fny/README.md)
+  * [۳-۱: سرعت سایت و اهمیت آن](fsl-3-sewy-tknykal-fny/3-1-srat-sayt-w-ahmyt-aan.md)
+  * [۳-۲: نقشه سایت (Sitemap)](fsl-3-sewy-tknykal-fny/3-2-nqshh-sayt-sitemap.md)
+  * [۳-۳: فایل Robots.txt](fsl-3-sewy-tknykal-fny/3-3-fayl-robots.txt.md)
+  * [۳-۴: ساختار URL بهینه](fsl-3-sewy-tknykal-fny/3-4-sakhtar-url-bhynh.md)
+  * [۳-۵: محتوای تکراری (Duplicate Content)](fsl-3-sewy-tknykal-fny/3-5-mhtway-tkrary-duplicate-content.md)
+  * [۳-۶: وضعیت‌های HTTP و ریدایرکت‌ها](fsl-3-sewy-tknykal-fny/3-6-wdhayt-hay-http-w-rydayrkt-ha.md)
+  * [۳-۷: داده‌های ساختاریافته (Schema Markup)](fsl-3-sewy-tknykal-fny/3-7-dadh-hay-sakhtaryafth-schema-markup.md)
+  * [۳-۸: امنیت سایت (HTTPS)](fsl-3-sewy-tknykal-fny/3-8-amnyt-sayt-https.md)
+  * [\[...\]](fsl-3-sewy-tknykal-fny/....md)
+* [فصل ۴: سئوی خارجی (Off-Page SEO)](fsl-4-sewy-kharjy-off-page-seo/README.md)
+  * [۴-۱: لینک‌سازی خارجی (Backlinks) چیست؟](fsl-4-sewy-kharjy-off-page-seo/4-1-lynk-sazy-kharjy-backlinks-chyst.md)
+  * [۴-۲: انواع بک‌لینک و ارزش آن‌ها](fsl-4-sewy-kharjy-off-page-seo/4-2-anwaa-bk-lynk-w-arzsh-aan-ha.md)
+  * [۴-۳: استراتژی‌های ساخت لینک](fsl-4-sewy-kharjy-off-page-seo/4-3-astratzhy-hay-sakht-lynk.md)
+  * [۴-۴: سئوی محلی (Local SEO)](fsl-4-sewy-kharjy-off-page-seo/4-4-sewy-mhly-local-seo.md)
+  * [\[...\]](fsl-4-sewy-kharjy-off-page-seo/....md)
+* [فصل ۵: ابزارهای سئو](fsl-5-abzarhay-sew/README.md)
+  * [۵-۱: گوگل آنالیتیکس (Google Analytics)](fsl-5-abzarhay-sew/5-1-gwgl-aanalytyks-google-analytics.md)
+  * [۵-۲: گوگل سرچ کنسول (Google Search Console)](fsl-5-abzarhay-sew/5-2-gwgl-srch-knswl-google-search-console.md)
+  * [۵-۳: ابزارهای تحقیق کلمه کلیدی](fsl-5-abzarhay-sew/5-3-abzarhay-thqyq-klmh-klydy.md)
+  * [۵-۴: ابزارهای تحلیل بک‌لینک](fsl-5-abzarhay-sew/5-4-abzarhay-thlyl-bk-lynk.md)
+  * [۵-۵: ابزارهای بررسی سئوی تکنیکال](fsl-5-abzarhay-sew/5-5-abzarhay-brrsy-sewy-tknykal.md)
+  * [\[...\]](fsl-5-abzarhay-sew/....md)
+* [فصل ۶: مباحث پیشرفته و استراتژی](fsl-6-mbahth-pyshrfth-w-astratzhy/README.md)
+  * [۶-۱: سئوی معنایی (Semantic SEO)](fsl-6-mbahth-pyshrfth-w-astratzhy/6-1-sewy-manayy-semantic-seo.md)
+  * [۶-۲: اینتنت کاربر (User Intent)](fsl-6-mbahth-pyshrfth-w-astratzhy/6-2-ayntnt-karbr-user-intent.md)
+  * [۶-۳: E-A-T/E-E-A-T چیست؟](fsl-6-mbahth-pyshrfth-w-astratzhy/6-3-e-a-t-e-e-a-t-chyst.md)
+  * [۶-۴: تدوین استراتژی سئو](fsl-6-mbahth-pyshrfth-w-astratzhy/6-4-tdwyn-astratzhy-sew.md)
+  * [\[...\]](fsl-6-mbahth-pyshrfth-w-astratzhy/....md)
+* [فصل ۷: اشتباهات رایج در سئو](fsl-7-ashtbahat-rayj-dr-sew/README.md)
+  * [۷-۱: تمرکز بیش از حد روی کلمات کلیدی](fsl-7-ashtbahat-rayj-dr-sew/7-1-tmrkz-bysh-az-hd-rwy-klmat-klydy.md)
+  * [۷-۲: نادیده گرفتن سئوی تکنیکال](fsl-7-ashtbahat-rayj-dr-sew/7-2-nadydh-grftn-sewy-tknykal.md)
+  * [۷-۳: خرید بک‌لینک‌های بی‌کیفیت](fsl-7-ashtbahat-rayj-dr-sew/7-3-khryd-bk-lynk-hay-by-kyfyt.md)
+  * [\[...\]](fsl-7-ashtbahat-rayj-dr-sew/....md)
+* [نتیجه‌گیری و گام‌های بعدی](conclusion.md)
+* [واژه‌نامه سئو](glossary.md)
+* [درباره نویسنده](drbarh-nwysndh.md)
+* [منابع بیشتر](mnaba-byshtr.md)
