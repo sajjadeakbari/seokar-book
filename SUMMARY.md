@@ -8,7 +8,7 @@
   * [شناخت درست برای شروع](pysh-gftar-nwysndh/shnakht-drst-bray-shrwa.md)
 * [فصل ۱: مبانی سئو](fsl-1-mbany-sew/README.md)
   * [۱-۱: موتورهای جستجو چگونه کار می‌کنند؟](fsl-1-mbany-sew/1-1-mwtwrhay-jstjw-chgwnh-kar-my-knnd.md)
-  * [۱-۲: انواع سئو (کلاه سفید، سیاه، خاکستری)](fsl-1-mbany-sew/1-2-anwaa-sew-klah-sfyd-syah-khakstry.md)
+  * [۱-۲: شناخت اکوسیستم سئو](fsl-1-mbany-sew/1-2-shnakht-akwsystm-sew.md)
   * [۱-۳: مفاهیم کلیدی (کلمه کلیدی، SERP، رتبه‌بندی)](fsl-1-mbany-sew/1-3-mfahym-klydy-klmh-klydy-serp-rtbh-bndy.md)
   * [\[...\]](fsl-1-mbany-sew/....md)
 * [فصل ۲: سئوی داخلی (On-Page SEO)](fsl-2-sewy-dakhly-on-page-seo/README.md)
