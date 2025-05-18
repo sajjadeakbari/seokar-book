@@ -12,7 +12,7 @@
   * [۵. ابزارهای تحلیل محتوا و NLP (پردازش زبان طبیعی):](jabh-abzar-nhayy-sewkar-dywanh/1-3-ngah-hwshmndanh-bh-aqtsad-jstjw.md)
   * [۶. ساخت ابزارهای ساده و کاربردی شخصی با برنامه‌نویسی (Python/JS):](jabh-abzar-nhayy-sewkar-dywanh/untitled.md)
 * [آنالیز و تفسیر داده‌ها:](aanalyz-w-tfsyr-dadh-ha/README.md)
-  * [۲-۱: تحقیق کلمات کلیدی](aanalyz-w-tfsyr-dadh-ha/2-1-thqyq-klmat-klydy.md)
+  * [جمع‌بندی فصل اول](aanalyz-w-tfsyr-dadh-ha/jma-bndy-fsl-awl.md)
   * [۲-۲: بهینه‌سازی محتوا](aanalyz-w-tfsyr-dadh-ha/2-2-bhynh-sazy-mhtwa.md)
   * [۲-۳: بهینه‌سازی تگ عنوان و متا توضیحات](aanalyz-w-tfsyr-dadh-ha/2-3-bhynh-sazy-tg-anwan-w-mta-twdhyhat.md)
   * [۲-۴: بهینه‌سازی هدینگ‌ها (H1-H6)](aanalyz-w-tfsyr-dadh-ha/2-4-bhynh-sazy-hdyng-ha-h1-h6.md)
